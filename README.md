@@ -17,6 +17,7 @@ Esta herramienta te permite generar shells utilizando Python.
 - `--type`: tipo de shell a generar (`bash`, `sh`, `cmd`, `powershell`)
 - `-r`: agregar la ruta completa de la shell (solo para `bash` y `sh`)
 - `-d`: codificar la shell en base64
+- `-l`: Limite de resutados(Por defecto: solo mostrara 3)
 
 ## Ejemplos
 
