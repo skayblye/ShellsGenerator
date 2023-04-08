@@ -158,8 +158,7 @@ if encoded:
     for shell in shells:
         print('\n')
         encoded_shell = encode_shells(shell.replace('{ip}', ip_shell).replace('{port}', port_shell))
-        result = GREEN + '[+] ' + RESET + shell.replace('{ip}', RED + ip_shell + RESET).replace('{port}', BLUE + port_shell + RESET)
-        print(result)
+        print(GREEN + '[+] ' + RESET + shell.replace('{ip}', RED + ip_shell + RESET).replace('{port}', BLUE + port_shell + RESET))
         print(CYAN + '   Encoded: ' + RESET + encoded_shell + '\n')
 else:
     for shell in shells:
