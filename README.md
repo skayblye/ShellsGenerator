@@ -2,6 +2,10 @@
 
 Esta herramienta te permite generar shells para varias plataformas utilizando Python. 
 
+![Funcionamiento](https://raw.githubusercontent.com/skayblye/ShellsGenerator/main/img/Blue-2023-04-07-18-53-25.png)
+![Funcionamiento](https://raw.githubusercontent.com/skayblye/ShellsGenerator/main/img/Blue-2023-04-07-18-53-51.png)
+![Funcionamiento](https://raw.githubusercontent.com/skayblye/ShellsGenerator/main/img/Blue-2023-04-07-18-54-13.png)
+
 ## Requerimientos
 
 - Python 3.x
