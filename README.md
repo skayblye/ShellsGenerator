@@ -30,9 +30,9 @@ Esta herramienta te permite generar shells utilizando Python.
 
 ### Ejemplo 3: Generar shells de Sh con ruta completa
 
-    python hackshell.py -i 192.168.1.100 -p 4444 --type sh -r
+    python3 hackshell.py -i 192.168.1.100 -p 4444 --type sh -r
     
 ### Ejemplo 4: Generar shells de Bash con ruta completa y codificadas en base64
 
-    python hackshell.py -i 192.168.1.100 -p 4444 --type bash -r -d
+    python3 hackshell.py -i 192.168.1.100 -p 4444 --type bash -r -d
 
