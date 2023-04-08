@@ -18,3 +18,21 @@ Esta herramienta te permite generar shells para varias plataformas utilizando Py
 - `-r`: agregar la ruta completa de la shell (solo para `bash` y `sh`)
 - `-d`: codificar la shell en base64
 
+## Ejemplos
+
+### Ejemplo 1: Generar shells de Bash sin ruta completa
+	
+    python3 hackshell.py -i 192.168.1.100 -p 4444 --type bash
+    
+### Ejemplo 2: Generar shells de PowerShell
+
+    python3 hackshell.py -i 192.168.1.100 -p 4444 --type powershell
+
+### Ejemplo 3: Generar shells de Sh con ruta completa
+
+    python hackshell.py -i 192.168.1.100 -p 4444 --type sh -r
+    
+### Ejemplo 4: Generar shells de Bash con ruta completa y codificadas en base64
+
+    python hackshell.py -i 192.168.1.100 -p 4444 --type bash -r -d
+
